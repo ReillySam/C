@@ -27,11 +27,5 @@ namespace CodilityChallenges
             return counter;
         }
 
-/*        static void Main(string[] args)
-        {
-            AddingItems ai = new AddingItems();
-            Console.WriteLine(ai.solution(new int[] { 4850, 100, 30, 30, 100, 50, 100 })); // 3
-            Console.WriteLine(ai.solution(new int[] { 4650, 150, 150, 150 })); // 2
-        }*/
     }
 }

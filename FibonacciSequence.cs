@@ -34,7 +34,7 @@ namespace CodilityChallenges
                     }
                 }
             }
-            return 999;
+            return 0;
         }
          
 
@@ -57,15 +57,6 @@ namespace CodilityChallenges
             }
 
             return fibNums;
-        }
- 
-
-        static void Main(string[] args)
-        {
-            FibonacciSequence fs = new FibonacciSequence();
-            Console.WriteLine(fs.solution(15)); // 2
-/*            Console.WriteLine(fs.solution(13)); // 0
-            Console.WriteLine(fs.solution(100)); // 11*/
         }
 
     }
