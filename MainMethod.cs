@@ -25,11 +25,14 @@ namespace CodilityChallenges
 
                         NumOfDiscIntersections nodi = new NumOfDiscIntersections();
                         Console.WriteLine(nodi.Solution(new int[] { 1, 5, 2, 1, 4, 0 })); // 11 
-            */
-            Brackets b = new Brackets();
-            Console.WriteLine(b.Solution ("{[()()]}") );
-            Console.WriteLine(b.Solution("([)()]"));
 
+                        Brackets b = new Brackets();
+                        Console.WriteLine(b.Solution ("{[()()]}") );
+                        Console.WriteLine(b.Solution("([)()]"));
+                        */
+
+            StoneWall sw = new StoneWall();
+            Console.WriteLine(sw.Solution (new int[] { 8,8,5,7,9,8,7,4,8 }));
         }
     }
 }
