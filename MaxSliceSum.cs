@@ -16,7 +16,7 @@ namespace CodilityChallenges
             }
 
             // Solution 1
-            int max_sum = A[0];
+/*            int max_sum = A[0];
             int sum = 0;
 
             foreach (var item in A)
@@ -33,7 +33,7 @@ namespace CodilityChallenges
                 }
             }
 
-            return max_sum;
+            return max_sum;*/
 
 
             // Solution 2
@@ -43,7 +43,7 @@ namespace CodilityChallenges
             for (int i = 1; i < A.Length; i++)
             {
                 max_sum = Math.Max(max_sum + A[i], A[i]);
-                max_slice = Math.Max(max_slice, max_sum);
+                max_slice = Math.Max(max_slice, max_sum); 
             }
 
             return max_slice;
